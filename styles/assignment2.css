@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+     display: flex;
+    }
+    .justify{ 
+        justify-content: center;
+        padding:0 auto ;
+       
+    }
+    .font-style{ 
+        font-style: italic;
+    }
+    .join-club{ border-radius:45px;
+        border: 1px solid #E6533c;
+    background-color:#E6533c ;
+color: #FFFFFF;
+padding: 16px 46px;
+margin-right: 10px;
+}
+.Download-app{
+    border-radius:45px;
+    padding: 16px 46px;
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border:1px solid  #FFFFFF; ;
+ }
+
+    /* all color collection */
+
+    .dark-1{ 
+        color: #FFFFFF;
+    }
+    .dark-2{
+        color: #E6533c;
+    }
+    .dark-3{ 
+        color: #8A8A8A;
+    }
+    .bg-color{ 
+        color: #212121;
+    }
+    
+    /* Header related styles */
+
+    .full-header{
+        /* border: 2px solid red; */
+        background-color: #212121;
+        width:100% ;
+        height: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+    /* nav related styles */
+
+    .nav-container{
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 180px;
+        
+    }
+    .nav-brand{ 
+        font-weight: 800;
+        font-size: 2.25rem;
+        font-style: italic;
+    }
+    .nav-item{ 
+        list-style: none;
+        margin-right: 40px;
+    }
+
+    .nav-link{ 
+        text-decoration: none;
+        font-size: 1.12rem;
+        font-weight: 400;
+    }
+    #Home{
+         border-radius:45px ;
+    background-color: #E6533c;
+padding: 8px 20px; }
+
+    /* banner related styles */
+.banner-container{
+    display: flex;
+    gap: 100px;
+}
+.banner-text{ 
+    margin: 0px 80px 75px 180px  ;
+}
+.banner-title{ 
+    font-size: 4.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner-description{
+    margin-bottom:30px ;
+}
+
+.banner-img{ width: 100% ;
+    height: 100%;
+  
+}
+
+/* section related styles */
+
+
+.habit-container{ 
+    border: 2px solid red;
+ 
+ margin:  0 auto;
+
+
+}
+
+
+
+
+
+/* responsive media Query */
+@media screen and ( max-width: 576px ){
+    .banner-container { 
+        flex-direction: column;
+        padding: 0 auto;
+        margin: 0 auto;
+
+        
+    }
+
+}
+
+
+
